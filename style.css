@@ -1,0 +1,40 @@
+body {
+    background-image: linear-gradient(
+    180deg,
+    #8A2BE2 5%, 
+    #8B008B 20%,
+    #9932CC 60%,
+    #9400D3 95%
+);
+margin: 0;
+min-height: 100vh;
+width: 100%;
+}
+
+main {
+align-items: center;
+display: flex; 
+height: 200vh;
+justify-content: center;
+position: relative;
+}
+
+main > section img {
+height: 300px;
+margin: 15px 0;
+width: 300px;
+}
+
+main > section button {
+background-color: #d1749b;
+border: none;
+border-radius: 4px;
+color: rgb(54, 5, 26);
+font-family: EuclidBold;
+font-size: 12px;
+font-weight: 500;
+letter-spacing: 0px;
+line-height: 30px;
+padding: 9px 23px;
+text-transform: uppercase;    
+}
