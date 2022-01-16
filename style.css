@@ -2,27 +2,27 @@ body {
     background-image: linear-gradient(
     180deg,
     #8A2BE2 5%, 
-    #8B008B 20%,
+    #8B008B 75%,
     #9932CC 60%,
     #9400D3 95%
 );
 margin: 0;
-min-height: 100vh;
+min-height: 300vh;
 width: 100%;
 }
 
 main {
 align-items: center;
 display: flex; 
-height: 200vh;
+height: 120vh;
 justify-content: center;
 position: relative;
 }
 
 main > section img {
-height: 300px;
-margin: 15px 0;
-width: 300px;
+height: 100px;
+margin: 20px 5;
+width: 100px;
 }
 
 main > section button {
@@ -38,3 +38,50 @@ line-height: 30px;
 padding: 9px 23px;
 text-transform: uppercase;    
 }
+
+
+#detalhes-container1{
+    font-weight: bold;
+    list-style-type: none;
+    width: 90%;
+    }
+    
+    #detalhes-container1 > li {
+    align-items: baseline;
+    display: flex;
+    }
+    
+    #detalhes-container1 > li p {
+    color: white;
+    }
+
+#detalhes-container2{
+    font-weight: bold;
+    list-style-type: none;
+    width: 90%;
+    }
+    
+    #detalhes-container2 > li {
+    align-items: baseline;
+    display: flex;
+    }
+    
+    #detalhes-container2 > li p {
+    color: white;
+    }
+
+
+#detalhes-container3{
+    font-weight: bold;
+    list-style-type: none;
+    width: 90%;
+    }
+    
+    #detalhes-container3 > li {
+    align-items: baseline;
+    display: flex;
+    }
+    
+    #detalhes-container3 > li p {
+    color: white;
+    }
